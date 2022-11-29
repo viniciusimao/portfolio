@@ -7,7 +7,7 @@ import {
   DiReact,
   DiBootstrap
 } from 'react-icons/di'
-import {  SiSpringboot } from 'react-icons/si'
+import {  SiSpringboot, SiCsharp } from 'react-icons/si'
 
 const technologies = [
   { id: "java", name: "Java", icon: <DiJava /> },
@@ -16,7 +16,8 @@ const technologies = [
   { id: "node", name: "Node.js", icon: <DiNodejsSmall /> },
   { id: "mysql", name: "MySQL", icon: <DiMysql /> },
   { id: "react", name: "React", icon: <DiReact /> },
-  { id: "bootstrap", name: "Bootstrap", icon: <DiBootstrap/>}
+  { id: "bootstrap", name: "Bootstrap", icon: <DiBootstrap/>},
+  { id: "c#", name: "C#", icon: <SiCsharp/>}
 ];
 
 const TechContent = () => {
