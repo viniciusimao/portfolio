@@ -1,20 +1,22 @@
 import '../style/components/TechContent.sass'
 import {
-  DiHtml5,
-  DiCss3,
+  DiJava,
+  SiSpringboot,
   DiJsBadge,
   DiNodejsSmall,
   DiMysql,
-  DiReact
+  DiReact,
+  DiBootstrap
 } from 'react-icons/di'
 
 const technologies = [
-  { id: "html", name: "HTML5", icon: <DiHtml5 /> },
-  { id: "css", name: "CSS3", icon: <DiCss3 /> },
+  { id: "java", name: "Java", icon: <DiJava /> },
+  { id: "spring", name: "Spring", icon: <SiSpringboot /> },
   { id: "js", name: "JavaScript", icon: <DiJsBadge /> },
   { id: "node", name: "Node.js", icon: <DiNodejsSmall /> },
   { id: "mysql", name: "MySQL", icon: <DiMysql /> },
   { id: "react", name: "React", icon: <DiReact /> },
+  { id: "bootstrap", name: "Bootstrap", icon: <DiBootstrap/>}
 ];
 
 const TechContent = () => {

@@ -14,7 +14,7 @@ const Navbar = () => {
     <aside id="sidebar">
 
       <img src={Avatar} alt="Vinicius Simão"/>
-      <p className="title">Dev FrontEnd</p>
+      <p className="title">Dev FullStack</p>
       <NetWork/>
       <InformationContainer/>
       
