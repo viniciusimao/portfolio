@@ -1,13 +1,13 @@
 import '../style/components/TechContent.sass'
 import {
   DiJava,
-  SiSpringboot,
   DiJsBadge,
   DiNodejsSmall,
   DiMysql,
   DiReact,
   DiBootstrap
 } from 'react-icons/di'
+import {  SiSpringboot } from 'react-icons/si'
 
 const technologies = [
   { id: "java", name: "Java", icon: <DiJava /> },
