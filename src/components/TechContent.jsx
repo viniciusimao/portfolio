@@ -17,7 +17,7 @@ const technologies = [
   { id: "mysql", name: "MySQL", icon: <DiMysql /> },
   { id: "react", name: "React", icon: <DiReact /> },
   { id: "bootstrap", name: "Bootstrap", icon: <DiBootstrap/>},
-  { id: "c#", name: "C#", icon: <SiCsharp/>}
+  { id: "csharp", name: "Csharp", icon: <SiCsharp/>}
 ];
 
 const TechContent = () => {
